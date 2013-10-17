@@ -1,0 +1,21 @@
+{
+  "name": "simple-test",
+  "description": "Simple test.",
+  "version": "0.0.1",
+  "author": "Shallker <imshallker@gmail.com>",
+  "main": "index.js",
+  "keywords": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shallker/simple-test.git"  
+  },
+  "bugs": {
+    "url": "https://github.com/shallker/simple-test/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "license": "MIT"
+}
