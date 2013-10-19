@@ -1,7 +1,7 @@
 {
   "name": "simple-test",
   "description": "Simple test.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Shallker <imshallker@gmail.com>",
   "main": "index.js",
   "keywords": [
