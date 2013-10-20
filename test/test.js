@@ -39,3 +39,39 @@ test('notThrow', function () {
     });
   });
 });
+
+test('equal', function () {
+  test.throw(function () {
+    test.equal(true, false);
+  });
+
+  test.throw(function () {
+    test.equal(0, 1);
+  });
+
+  test.throw(function () {
+    test.equal('0', '1');
+  });
+
+  test.throw(function () {
+    test.equal(0, '1');
+  });
+});
+
+test('notEqual', function () {
+  test.throw(function () {
+    test.notEqual(true, true);
+  });
+
+  test.throw(function () {
+    test.notEqual(1, 1);
+  });
+
+  test.throw(function () {
+    test.notEqual('0', '0');
+  });
+
+  test.throw(function () {
+    test.notEqual('1', '1');
+  });
+});
