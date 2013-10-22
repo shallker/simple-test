@@ -1,4 +1,4 @@
-var test = require('../index');
+var test = typeof document === 'object' ? require('simple-test') : require('../index');
 
 test('ok', function () {
   test.ok(1);

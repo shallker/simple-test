@@ -1,15 +1,11 @@
-var test = require('../index');
+var test = typeof document === 'object' ? require('simple-test') : require('../index');
 
 test('add user', function (done) {
-  setTimeout(function () {
-    done();
-  });
+  done();
 });
 
 test('update user', function (done) {
-
-});
-
-test('delete user', function (done) {
-  throw new Error('forbidden');  
+  setTimeout(function () {
+    done();
+  }, 1000);  
 });

@@ -1,0 +1,17 @@
+{
+  "name": "simple-test",
+  "repo": "shallker/simple-test",
+  "description": "Simple test for JavaScript",
+  "version": "0.0.5",
+  "keywords": [],
+  "dependencies": {
+    "shallker/color-console": "*"  
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "component.js",
+  "scripts": [
+    "component.js",
+    "lib/simple-test.js"
+  ]
+}

@@ -15,7 +15,9 @@
   "bugs": {
     "url": "https://github.com/shallker/simple-test/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "color-console": "*"  
+  },
   "devDependencies": {},
   "scripts": {},
   "license": "MIT"
