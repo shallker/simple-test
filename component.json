@@ -2,7 +2,7 @@
   "name": "simple-test",
   "repo": "shallker/simple-test",
   "description": "Simple test for JavaScript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [],
   "dependencies": {
     "shallker/color-console": "*"  
