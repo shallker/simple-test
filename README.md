@@ -23,6 +23,11 @@ test('add user', function (done) {
 ### test(String name, Function fn)
 #### .async(String name, Function fn)
 
+## Test
+Browser side   
+http://shallker.github.io/simple-test/test/index.html   
+http://shallker.github.io/simple-test/test/async.html   
+
 
 ## License
 
